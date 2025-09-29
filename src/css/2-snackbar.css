@@ -1,0 +1,86 @@
+.container {
+    font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #2e2f42;
+        box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.delay-label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.delay-inp {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    outline: none;
+    padding: 8px 16px;
+    transition: border 250ms ease-in-out;
+}
+
+.delay-inp:hover {
+    border: 1px solid #000;
+}
+
+.state-box {
+    width: 360px;
+    height: 78px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 48px 14px 48px;
+    gap: 48px;
+    transition: border 250ms ease-in-out;
+}
+
+.state-box:hover {
+    border-color: #000;
+}
+
+.state-box label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+}
+
+.state-box input[type="radio"] {
+    border: 1px solid #757575;
+    border-radius: 14px;
+    width: 20px;
+    height: 20px;
+    transition: border 250ms ease-in-out;
+}
+
+.state-box input[type="radio"]:hover {
+    border-color: #000;
+}
+
+.btnn {
+    width: 360px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    background-color: #4e75ff;
+    color: #fff;
+    margin-top: 24px;
+    transition: background-color 250ms ease-in-out;
+}
+
+.btnn:hover {
+    background-color: #6c8cff
+}
